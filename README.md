@@ -17,13 +17,46 @@ nvidia-docker run --rm nvidia/cuda nvidia-smi
 
 ### Run
 
-#### Simpleco.in
+#### Simpleco.in - Default
 ```
 nvidia-docker run -ti --rm --name Xmrig-nvidia-doge \
 -e ALGORITHM="cryptonight" \
 -e POOL="simpleco.in" \
 -e PORT="8081" \
 -e USER="luvres.7873" \
+-e USERPASS="x" \
+izone/xmrig-nvidia 
+```
+
+#### Nicehash (cryptonight)
+```
+nvidia-docker run -ti --rm --name Xmrig-nvidia-nicehash \
+-e ALGORITHM="cryptonight" \
+-e POOL="cryptonight.eu.nicehash.com" \
+-e PORT="3355" \
+-e USER="3PThBqHfb1UVcZaZXtPAY4SC4fZNBNqCs7.1uvr3z" \
+-e USERPASS="x" \
+izone/xmrig-nvidia 
+```
+
+#### BBS Coin
+```
+nvidia-docker run -ti --rm --name Xmrig-nvidia-bbs \
+-e ALGORITHM="cryptonight" \
+-e POOL="78.46.85.142" \
+-e PORT="19931" \
+-e USER="fyTZ7jLeycCEYMpexDcUMCaxiErw7mFJDNMAJNShyWRA1dnf7ZmHgj8Zwd61VKiEjHDd8TsgZJL9h4ZdbYBdfCHv32d62EsgX" \
+-e USERPASS="x" \
+izone/xmrig-nvidia 
+```
+
+#### QWC Qwerty coin
+```
+nvidia-docker run -ti --rm --name Xmrig-nvidia-qwc \
+-e ALGORITHM="cryptonight" \
+-e POOL="78.46.85.142" \
+-e PORT="8261" \
+-e USER="QWC1GWTaTdNCGBnQPspUYZi3WUty9mDJPgCM3ohTupC1NjhL1uTzHed2xC3VV79P57A3L5ZWrzKC8a4hXifqwuyd4yQSrY82EK" \
 -e USERPASS="x" \
 izone/xmrig-nvidia 
 ```
