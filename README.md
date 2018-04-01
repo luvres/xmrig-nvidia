@@ -1,4 +1,4 @@
-## Xmrig
+## Xmrig NVIDIA
 -----
 
 ### NVIDIA Docker (https://github.com/NVIDIA/nvidia-docker)
