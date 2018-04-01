@@ -19,7 +19,7 @@ nvidia-docker run --rm nvidia/cuda nvidia-smi
 
 #### Simpleco.in
 ```
-nvidia-docker run -ti --rm --name Xmrig-nvidia-simpleco.in \
+nvidia-docker run -ti --rm --name Xmrig-nvidia-doge \
 -e ALGORITHM="cryptonight" \
 -e POOL="simpleco.in" \
 -e PORT="8081" \
