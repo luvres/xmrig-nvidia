@@ -1,4 +1,4 @@
-## Xmrig NVIDIA
+## Xmrig NVIDIA cryptonight (default) or cryptonight-lite
 -----
 
 ### NVIDIA Docker (https://github.com/NVIDIA/nvidia-docker)
