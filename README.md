@@ -39,6 +39,17 @@ nvidia-docker run -ti --rm --name Xmrig-nvidia-nicehash \
 izone/xmrig-nvidia 
 ```
 
+#### Minergate XMR
+```
+nvidia-docker run -ti --rm --name Xmrig-nvidia-Minergate \
+-e ALGORITHM="cryptonight" \
+-e POOL="xmr.pool.minergate.com" \
+-e PORT="45700" \
+-e USER="1uvr3z@gmail.com" \
+-e USERPASS="x" \
+izone/xmrig-nvidia 
+```
+
 #### BBS Coin
 ```
 nvidia-docker run -ti --rm --name Xmrig-nvidia-bbs \
